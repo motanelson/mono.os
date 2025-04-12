@@ -15,7 +15,7 @@ namespace cmds{
                         Console.BackgroundColor=ConsoleColor.DarkYellow;
                         Console.ForegroundColor = ConsoleColor.Black;
                         Console.Clear();
-                        Console.WriteLine("mono os ");
+                        Console.WriteLine("\n███╗   ███╗ ██████╗ ███╗   ██╗ ██████╗  ██████╗  ██████╗ ███████╗\n████╗ ████║██╔═══██╗████╗  ██║██╔═══██╗██╔════╝ ██╔═══██╗██╔════╝\n██╔████╔██║██║   ██║██╔██╗ ██║██║   ██║██║  ███╗██║   ██║███████╗\n██║╚██╔╝██║██║   ██║██║╚██╗██║██║   ██║██║   ██║██║   ██║╚════██║\n██║ ╚═╝ ██║╚██████╔╝██║ ╚████║╚██████╔╝╚██████╔╝╚██████╔╝███████║\n╚═╝     ╚═╝ ╚═════╝ ╚═╝  ╚═══╝ ╚═════╝  ╚═════╝  ╚═════╝ ╚══════╝\n              Powered by Mono Runtime - Code: Nelson OS\n");
                         while(t){
                             Console.Write(":>");
                             s=Console.ReadLine();
@@ -30,7 +30,7 @@ namespace cmds{
 	                                psi.RedirectStandardOutput = false;
 	                                Process p = Process.Start(psi);
 	                                p = Process.Start(psi);
-	                                Console.WriteLine(p.StandardOutput.ReadToEnd());
+	                                //Console.WriteLine(p.StandardOutput.ReadToEnd());
 	                                p.WaitForExit();
 	                                p.Close();
                                 }catch(Exception ee ){
