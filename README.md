@@ -6,3 +6,10 @@ https://mega.nz/file/ZvZgFZaS#haJ5CFAC6PIWlqi8CSQZfgiiNrt8sQ9QjfDm8MneFJY
 ssl user sdcard
 user:pi
 pass:raspberry
+
+
+change wallpaper on startup:
+feh --bg-fill monoos.png
+
+startup programs autoexec:
+/home/pi/.config/openbox/autostart
