@@ -13,3 +13,4 @@ feh --bg-fill monoos.png
 
 startup programs autoexec:
 /home/pi/.config/openbox/autostart
+
